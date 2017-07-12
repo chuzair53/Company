@@ -1,5 +1,5 @@
 /node_modules
-/.sass-cache
+/resources/assets/.sass-cache
 /vendor
 npm-debug.log
 .env.example
