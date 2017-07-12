@@ -9,7 +9,10 @@
 @section('content')
 <header>
 		<div class="container">
-			<h2>Header background</h2>
+		<div class="caption">
+			<p>Caption text</p>
+		</div>
+			{{-- <h2>Header background</h2> --}}
 		</div>
 </header>
 @endsection
