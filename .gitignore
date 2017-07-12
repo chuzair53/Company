@@ -1,11 +1,6 @@
 /node_modules
-/public/hot
-/public/storage
 /.sass-cache
-/storage/*.key
 /vendor
-/.idea
-/.vagrant
-Homestead.json
-Homestead.yaml
 npm-debug.log
+.env.example
+composer.lock
