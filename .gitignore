@@ -1,6 +1,7 @@
-/node_modules
 /resources/assets/.sass-cache
+/node_modules
 /vendor
+package-lock.json
+composer.lock
 npm-debug.log
 .env.example
-composer.lock
