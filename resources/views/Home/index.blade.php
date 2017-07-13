@@ -5,11 +5,11 @@
 @section('title') Dev Company @endsection
 @section('content')
 <header>
-    <div class="container">
-        <div class="header-cover">
+    <div class="header-cover">
+        <center>
             <div class="caption">
-                <h2>Caption text</h2>
-            </div>
+            <h2>Caption text</h2>
+         </center>
         </div>
     </div>
 </header>
