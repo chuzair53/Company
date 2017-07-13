@@ -7,42 +7,29 @@ body {
 $header-cover: #262626;
 $caption-color: white;
 
-/*Navigation Style*/
+/*Nav Style variable*/
 $nav-padding: 20px;
 $nav-background: white;
 
-/*Nav style end*/
-
-.navbar-brand {
-  font-size: 24px;
-}
-
-.navbar-container {
-  padding: 20px 0 20px 0;
-}
-
+/*Nav style variable end*/
+.nav li{margin-left: 40px;}
+.nav li a:hover,
+.nav li a:focus,
+.nav li a:active{background: none;}
+.navbar-brand {font-size: 24px;}
+.navbar-container {padding: 20px 0 20px 0;}
 .navbar.navbar-fixed-top.fixed-theme {
   background-color: $nav-background;
   border-color: #080808;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
 }
+.navbar.navbar-fixed-top.fixed-theme a{color:#000;}
+.navbar-brand.fixed-theme {font-size: 18px;}
+.navbar-container.fixed-theme {padding: 0;}
 
-.navbar-brand.fixed-theme {
-  font-size: 18px;
-}
-
-.navbar-container.fixed-theme {
-  padding: 0;
-}
-
-.navbar-nav a {
-  color: white;
-}
-
-.navbar-bran {
-  background: white;
-}
-
+.navbar-brand{color: white;}
+.navbar-nav a{color: white;}
+.navbar-brand{ background: solid white;}
 .navbar-brand.fixed-theme,
 .navbar-container.fixed-theme,
 .navbar.navbar-fixed-top.fixed-theme,
